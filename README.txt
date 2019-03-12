@@ -1,0 +1,3 @@
+SequenceSubElementsWithinLocation.xsl
+
+Sequences the subelements of <location>.  This should not make any other changes to the MODS record.  It is to clean up records where the subelements of <location> are in the wrong order, due to a bug in the Islandora forms that was in place from Islandora's launch (and is still in place pending a change to the transformation that runs on the MODS record at save).
